@@ -1,2 +1,2 @@
-# suprow_pub
+# suprow
 A lightweight browser for web apps
