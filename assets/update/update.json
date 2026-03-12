@@ -1,0 +1,8 @@
+{
+  "version": "0.9.5-beta",
+  "url": "https://suprow.app/download",
+  "urlMac": "https://suprow.app/releases/suprow-1.0.0-mac.zip",
+  "urlLinux": "https://suprow.app/releases/suprow-1.0.0-linux.zip",
+  "urlWin": "https://suprow.app/releases/suprow-1.0.0-setup.exe",
+  "notes": "Tab Switcher, Certificate Bypass, Linux Support"
+}
