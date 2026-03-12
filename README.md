@@ -85,21 +85,23 @@ The `releases/` folder in this repo may contain mirrors or helper files, but the
 
 ## Screenshots & assets
 
-The `assets/` directory contains the public marketing images used on the website and in the README:
+The `assets/` directory contains the public marketing images used on the website and in this README.
 
-- `browser.png` – main app window with spaces
-- `settings.png` – settings and configuration view
-- `space.png` – overview of spaces / layouts
-- `tab_switch.png` – tab switcher / command palette
-- `terminal.png` – illustrative terminal snippet for the suprow CLI concept
+### App previews
 
-You can reference these assets directly from GitHub or via a CDN that serves GitHub assets.
-
-Example (Markdown):
-
-```markdown
 ![suprow browser](assets/browser.png)
-```
+
+![suprow spaces](assets/space.png)
+
+![suprow tab switcher](assets/tab_switch.png)
+
+### Settings & terminal teaser
+
+![suprow settings](assets/settings.png)
+
+![suprow terminal concept](assets/terminal.png)
+
+You can also reference these assets from other places (websites, blog posts, etc.) by pointing to the raw file URLs on GitHub or via a CDN that serves GitHub assets.
 
 ---
 
