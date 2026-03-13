@@ -1,8 +1,8 @@
 {
-  "version": "0.9.4-beta",
+  "version": "0.9.7-beta",
   "url": "https://suprow.app/download",
-  "urlMac": "https://suprow.app/releases/suprow-1.0.0-mac.zip",
-  "urlLinux": "https://suprow.app/releases/suprow-1.0.0-linux.zip",
-  "urlWin": "https://suprow.app/releases/suprow-1.0.0-setup.exe",
-  "notes": "Tab Switcher, Certificate Bypass, Linux Support"
+  "urlMac": "https://suprow.app/downloads/releases/mac/suprow-darwin-arm64-0.9.7-beta.zip",
+  "urlLinux": "https://suprow.app/downloads/releases/lnx/suprow-linux-x64-0.9.7-beta.zip",
+  "urlWin": "https://suprow.app/downloads/releases/win/suprow-win32-x64-0.9.7-beta.zip",
+  "notes": "0.9.7-beta"
 }
