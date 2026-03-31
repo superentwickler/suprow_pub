@@ -10,6 +10,9 @@ It is a public hub for:
 - **Screenshots and marketing assets**
 - **Issues and pull requests** from the community
 
+Download beta here:
+ [suprow.app](https://suprow.app)
+
 ---
 
 ## What is suprow?
@@ -49,37 +52,46 @@ It focuses on **fast startup, minimal UI and keyboard‑centric workflows**, so 
   - `AppImage` and `.deb` packages (Beta)  
   - See the latest Linux builds under **Releases → Linux**
 
+Download beta here:
+ [suprow.app](https://suprow.app)
+
 The `releases/` folder in this repo may contain mirrors or helper files, but the canonical downloads live under GitHub Releases.
 
 ---
 
-## Current Beta – v0.9.0‑beta (Desktop)
+## Current Beta – v0.9.8.21-beta (Desktop)
 
 - **Stage**: Beta · Desktop only
 
 ### New features
 
-- Space‑based window management for your web apps (e.g. Work / Side / Focus)
-- Built‑in ad blocker via `@ghostery/adblocker-electron`
-- Start page with space overview, editable grids and quick links
-- Picture‑in‑picture windows for mini‑browsers, video players or dashboards
-- Tab switcher / command palette (`⌘K` / `Ctrl+K`) for jumping between tabs, apps and history
-- One‑click incognito mode (👻) with isolated session and no history
-- Settings view for default space, start URL, theme and privacy options
-- Import/export of spaces and settings for easy backups and sharing
+- Privacy-first architecture: zero cloud sync, zero telemetry, zero tracking
+- Encrypted credentials using your system keychain (macOS Keychain / Windows DPAPI)
+- Space lock with idle auto-lock for sensitive workspaces
+- Space isolation with separate cookies, cache, logins and storage per space
+- Quick Access favorites in the topbar for one-click app/site launch
+- Built-in ad and tracker blocking out of the box (uBlock-style filtering)
+- Keyboard-centric workflows: command palette (`⌘T`) and tab switcher (`⌘S`)
+- Adaptive topbar sizes (Compact / Normal / Large)
+- Incognito mode with isolated session and no history persistence
+- Local encrypted vault (AES-256-GCM) for credential backup/restore flows
 
-### Improvements
+### And there's more
 
-- More stable window handling and better shortcuts
-- Faster app startup through optimised preload
-- Improved error pages & dialogs
-- Early translation/locale hooks (not fully exposed yet)
+- Translate built in: one-click page translation, with a language picker shortcut
+- Timeline Tab Bar: open tabs sorted by recency with time labels and space indicators
+- Timeline controls: pin as sidebar/topbar, compact mode, sort by space, auto-close old tabs
+- DRM and streaming: Widevine support (CastLabs) for major streaming platforms
+- Download manager: progress, pause/resume, and configurable download folder
+- Find in page (`⌘F`): minimal search bar with match count and keyboard navigation
+- Fullscreen video: native HTML5 fullscreen with automatic UI/topbar hiding
 
-### Known limitations
+### In progress
 
-- No auto‑updates in the beta
-- No multi‑user profile support (yet)
-- Linux builds are experimental
+- Passkey / Touch ID support for website logins (WebAuthn)
+- Split-view for side-by-side browsing
+- Start page widget customisation (clock, weather, notes)
+- Auto-update support across platforms
 
 ---
 
